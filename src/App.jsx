@@ -1,5 +1,6 @@
 import axios from "../axios";
 import { useEffect } from "react";
+import Sidebar from "./components/Sidebar";
 function App() {
   const fetchData = async () => {
     const { config } = await axios.get("/users");
@@ -9,7 +10,7 @@ function App() {
   useEffect(() => {
     fetchData();
   }, []);
-  return <>App</>;
+  return <Sidebar />;
 }
 
 export default App;
