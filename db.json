@@ -1,0 +1,15 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com" },
+    { "id": 2, "name": "Jane Doe", "email": "jane@example.com" },
+    { "id": 24, "name": "Temp", "email": "nord@gmail.com" }
+  ],
+  "posts": [
+    { "id": 1, "title": "Post 1", "content": "This is post 1" },
+    { "id": 2, "title": "Post 2", "content": "This is post 2" }
+  ],
+  "products": [
+    { "id": 1, "name": "Product 1", "price": 100 },
+    { "id": 2, "name": "Product 2", "price": 200 }
+  ]
+}
